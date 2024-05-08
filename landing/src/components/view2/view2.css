@@ -1,0 +1,119 @@
+@media screen and (max-width: 600px) {
+    .contenedor
+    {
+      font-size: 2em; /* Ajusta el tamaño de fuente */
+    }
+  }
+  
+  /* Estilos para tabletas */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .contenedor {
+      font-size: 2.5em; /* Ajusta el tamaño de fuente */
+    }
+  }
+  
+  /* Estilos para pantallas más grandes (escritorio) */
+  @media screen and (min-width: 1025px) {
+    .contenedor {
+      font-size: 3em; /* Ajusta el tamaño de fuente */
+    }
+  }
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    background-size: cover;
+    background-image: url("../../imagenes/view1/FondoInicioLanding.png");
+}
+
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    background-size: cover;
+    background-image: url("../../imagenes/view1/FranjasInicioLanding.png");
+    width: 100%;
+    height: 121.7vh;
+}
+
+
+.gato {
+    position: absolute;
+    top: 17%;
+    left: 75%;
+    width: 23%;
+}
+
+.otro {
+    position: absolute;
+    top: 30%;
+    left: 0.5%;
+    width: 23%;
+
+}
+
+.fores {
+    position: absolute;
+    top: 10%;
+    left: auto;
+    width: 25%;
+}
+
+
+.input{
+    position: absolute;
+    top: 75%;
+}
+
+
+.barra {
+    width: 140%;
+    margin-bottom: 20px;
+    margin-top: 1%;
+    background-color: rgb(38, 37, 37);
+    color: azure;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.contenedor-botones {
+    display: flex;
+  justify-content: space-between; 
+  padding: 10px; 
+
+}
+
+.boton1 {
+    display: block;
+    margin-right: auto;
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 14px 28px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 8px; 
+    transition: all 0.3s; 
+}
+
+.boton2 {
+   
+    display: block; /* Hace que el botón sea un bloque para aplicar márgenes automáticos */
+    margin-left: auto; /* Empuja el botón hacia la derecha */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 14px 28px; /* Espaciado interno alrededor del texto */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: all 0.3s; /* Transición suave para efectos de hover */
+}
+
