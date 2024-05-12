@@ -48,6 +48,19 @@
   } 
 }
 
+.become{
+  position: absolute;
+  width:80%;
+  top:250%
+}
+@media (max-width: 768px) {
+  .become{
+    position: absolute;
+    width:100%;
+    top:265%
+  } 
+}
+
 .carousel-container {
   top:182%;
   position: absolute;
