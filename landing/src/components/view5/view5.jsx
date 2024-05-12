@@ -14,6 +14,7 @@ import help from "../../imagenes/View5/textos/Form-Text.png";
 import follow from "../../imagenes/View5/textos/FollowUs.png"
 import discord from "../../imagenes/View5/textos/BtnDiscord.png"
 import lsp from "../../imagenes/View5/textos/FlyingMounts-Title.png"
+import We from "../../imagenes/View5/textos/WeWantToGive.png"
 
 import "./view5.css"
 
@@ -26,35 +27,38 @@ function ViewCinco() {
     };
 
     return (
-        <dir>
-            <div className="Cinco">
+        <div>
+            <div className="placa">
                 <img src={letra} alt="" className="letra" />
             </div>
             <div className="Cinco2">
                 <img src={ocho} alt="" className="ocho" />
                 <div className="iconos">
-                    <img src={darknes} alt="" />
-                    <img src={fire} alt="" />
-                    <img src={earth} alt="" />
-                    <img src={ice} alt="" />
-                    <img src={light} alt="" />
-                    <img src={water} alt="" />
-                    <img src={posion} alt="" />
-                    <img src={plant} alt="" />
+                    <img src={darknes} alt="" className="dark" />
+                    <img src={fire} alt="" className="fire" />
+                    <img src={earth} alt="" className="earth"/>
+                    <img src={ice} alt="" className="ice" />
+                    <img src={light} alt="" className="light"/>
+                    <img src={water} alt="" className="weter"/>
+                    <img src={posion} alt="" className="posion" />
+                    <img src={plant} alt="" className="plant" />
 
                 </div>
+                <img src={We} alt="" className="we" />
+
                 <img src={lsp} alt="" className="fly" />
                 <img src={enig} alt="" className="enig" />
                 <img src={help} alt="" className="help" />
 
                 <div className="input2">
+                    <h4 className="email">Email</h4>
                     <div>
-                        <input type="text" placeholder="Ingresa algo..." className="barra" />
+                        <input type="text" placeholder="Ingresa algo..." className="barra1" />
                     </div>
 
                     <div class="contenedor-botones">
-                        <button onClick={() => handleButtonClick('Botón 1')} className="boton1"> Sing up </button>
-                        <button onClick={() => handleButtonClick('Botón 2')} className="boton2">Sing up</button>
+                        <button onClick={() => handleButtonClick('Botón 1')} className="botones"> Sing up </button>
+                       
                     </div>
                 </div>
 
@@ -64,7 +68,7 @@ function ViewCinco() {
 
 
             </div>
-        </dir>
+        </div>
     )
 }
 

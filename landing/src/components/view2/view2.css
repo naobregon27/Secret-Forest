@@ -1,119 +1,177 @@
-@media screen and (max-width: 600px) {
-    .contenedor
-    {
-      font-size: 2em; /* Ajusta el tamaño de fuente */
-    }
-  }
-  
-  /* Estilos para tabletas */
-  @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .contenedor {
-      font-size: 2.5em; /* Ajusta el tamaño de fuente */
-    }
-  }
-  
-  /* Estilos para pantallas más grandes (escritorio) */
-  @media screen and (min-width: 1025px) {
-    .contenedor {
-      font-size: 3em; /* Ajusta el tamaño de fuente */
-    }
-  }
+.fondo {
+  background-image: url("../../imagenes/view1/FondoInicioLanding.png");
+  height: 130vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-
-.contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    color: white;
-    background-size: cover;
-    background-image: url("../../imagenes/view1/FondoInicioLanding.png");
 }
+
+@media(max-width: 768px) {
+  .fondo {
+    background-image: url("/view3/FondoInicio.png");
+    height: 130vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+}
+
 
 
 .inicio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../imagenes/view1/FranjasInicioLanding.png");
+  width: 100%;
+  height: 130vh;
+  position: relative;
+  display: flex;
+}
+
+@media(max-width: 768px) {
+  .inicio {
     color: white;
     background-size: cover;
-    background-image: url("../../imagenes/view1/FranjasInicioLanding.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../imagenes/view1/CuadroInicio.png");
     width: 100%;
-    height: 121.7vh;
+    height: 130vh;
+    position: relative;
+    display: flex;
+  }
 }
+
 
 
 .gato {
-    position: absolute;
-    top: 17%;
-    left: 75%;
-    width: 23%;
+  position: absolute;
+  top: 18.5%;
+  left: 75%;
+  width: 23%;
 }
 
 .otro {
-    position: absolute;
-    top: 30%;
-    left: 0.5%;
-    width: 23%;
+  position: absolute;
+  top: 30%;
+  left: 0.5%;
+  width: 23%;
 
 }
 
 .fores {
-    position: absolute;
-    top: 10%;
-    left: auto;
-    width: 25%;
+  position: absolute;
+  top: 3%;
+  left: auto;
+  width: 30%;
+  left: 36%;
+
 }
 
-
-.input{
+@media (max-width: 768px) {
+  .fores {
     position: absolute;
-    top: 75%;
+    width:60%;  
+    left: 21%;
+      top: 20%;
+        transform: translateY(-50%);
+    
+  }
+}
+
+.titulo {
+  position: absolute;
+  top: 39%;
+  left: 30%;
+  width: 40%;
+}
+@media(max-width: 768px){
+  .titulo {
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    width: 80%;
+  } 
+}
+
+.fran {
+  position: absolute;
+  top: 79%
+}
+
+@media (max-width: 768px) {
+  .fran {
+    position: absolute;
+    width: 100%;
+    top: 96%; 
+    transform: translateY(-50%);
+  }
+}
+
+.hep {
+  position: absolute;
+  width: 40%;
+  top: 55%;
+  left: 30%;
+}
+
+@media(max-width: 768px){
+  .hep {
+    position: absolute;
+    width: 95%;
+    top: 55%;
+    left: 2%;
+  } 
+}
+
+.input {
+  position: absolute;
+  top: 64%;
+  left: 35%;
+}
+
+@media(max-width: 768px){
+  .input {
+    position: absolute;
+    top: 62%;
+    left: 8%;
+  } 
 }
 
 
 .barra {
-    width: 140%;
-    margin-bottom: 20px;
-    margin-top: 1%;
-    background-color: rgb(38, 37, 37);
-    color: azure;
-    height: 50%;
-    border-radius: 8px;
+  width: 250%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(17, 16, 16, 0.689);
+  color: azure;
+  height: auto;
+  border-radius: 4px;
+  height: 50%;
+  left: 10%;
 }
 
-.contenedor-botones {
-    display: flex;
-  justify-content: space-between; 
-  padding: 10px; 
 
-}
 
 .boton1 {
-    display: block;
-    margin-right: auto;
-    background-color: #4CAF50; 
-    color: white; 
-    padding: 14px 28px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    border: none; 
-    border-radius: 8px; 
-    transition: all 0.3s; 
+position: relative;
+  left: 85%; 
+  background-color: #c3b707;
+  color: white;
+  padding: 10px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s;
+  height: 10%;
+  font-weight:bold; 
 }
 
-.boton2 {
-   
-    display: block; /* Hace que el botón sea un bloque para aplicar márgenes automáticos */
-    margin-left: auto; /* Empuja el botón hacia la derecha */
-    background-color: #4CAF50; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    padding: 14px 28px; /* Espaciado interno alrededor del texto */
-    font-size: 16px; /* Tamaño del texto */
-    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
-    border: none; /* Elimina el borde del botón */
-    border-radius: 8px; /* Bordes redondeados */
-    transition: all 0.3s; /* Transición suave para efectos de hover */
+.boton1:hover {
+  background-color: blueviolet
 }
-

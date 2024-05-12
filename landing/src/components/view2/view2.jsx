@@ -3,6 +3,11 @@ import gato from "../../imagenes/view1/Gato_Mesa de trabajo 1.png"
 import franja from "../../imagenes/view1/FranjasInicioLanding.png"
 import otro from "../../imagenes/view1/Ajolote_1.png"
 import fores from "../../imagenes/view1/LogoSFInicio.png"
+import titulo from "../../imagenes/view1/Titulo.png"
+import inicio from "../../imagenes/view1/FadeInicio (1).png"
+import hep from "../../imagenes/view1/HelpFormulario.png"
+ 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./view2.css"
 
@@ -16,30 +21,31 @@ function ViewDos() {
 
 
   return (
-    <div className="contenedor">
+    <div class="fondo d-flex justify-content-center align-items-center">
+    
 
-      <div className="inicio">
+      <div class="inicio" >
 
-        {/* <img src={franja} alt="" className="franja" /> */}
-        <img src={gato} alt="" className="gato" />
-        <img src={otro} alt="" className="otro" />
-        <img src={fores} alt="" className="fores" />
+        
+        <img src={gato} class="img-fluid gato d-none d-md-block" />
+        <img src={otro} alt="" className="img-fluid otro d-none d-md-block" />
+        <img src={fores} alt="" class="img-fluid fores" />
+        <img src={titulo} alt="" class="img-fluid titulo" />
+        <img src={hep} alt="" class="img-fluid hep"/>
 
-        <div className="input">
+
+       <div className="input">
+        <h4>Email:</h4>
           <div>
           <input type="text" placeholder="Ingresa algo..." className="barra" />
           </div>
 
-          <div class="contenedor-botones">
-            <button onClick={() => handleButtonClick('Botón 1')} className="boton1"> Sing up </button>
-            <button onClick={() => handleButtonClick('Botón 2')} className="boton2">Sing up</button>
-          </div>
+            <button onClick={() => handleButtonClick('Botón 1')} class="boton1"> Sing up </button>
+         
         </div>
+         <img src={inicio} alt="" class="img-fluid fran" />
       </div>
-      <div className="inicio2">
-
-      </div>
-
+     
     </div>
   )
 }

@@ -1,6 +1,11 @@
 import React from "react";
 import "./view3.css";
+
+import diez from "../../imagenes/view3/fondos/10Races-Title.png";
+import discoveri from "../../imagenes/view3/fondos/DiscoverRace (1).png"
 import ImageCarousel from "./carrusel";
+import become from "../../imagenes/view3/fondos/YouBecome.png"
+
 
 function ViewTres() {
     const images = [
@@ -16,9 +21,12 @@ function ViewTres() {
 
 
     return (
-        <div className="vista">
+        <div class="sol d-flex justify-content-center align-items-center">
+        <img src={diez} class="img-fluid diez" />
+        <img src={discoveri} class="img-fluid discoveri" />
             <div className="carousel-container">
                 <ImageCarousel images={images} />
+                <ImageCarousel images={become} />
             </div>
         </div>
     )

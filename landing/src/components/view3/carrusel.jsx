@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import "./carrusel.css"
+
+import flechiz from "../../imagenes/view3/fondos/FlechaRazas (1).png"
 
 const ImageCarousel = ({ images }) => {
   const [current, setCurrent] = useState(0);
@@ -13,9 +16,10 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div>
-      <button onClick={goToPrevious}>Anterior</button>
-      <img src={images[current]} alt={`Imagen ${current + 1}`} />
-      <button onClick={goToNext}>Siguiente</button>
+      <button onClick={goToPrevious} className='botons'><img src={flechiz} alt="" class="img-fluid flecha" /></button>
+      <img src={images[current]} alt={`Imagen ${current + 1}`} className='image' />
+      <button onClick={goToNext} className='botons2'
+      ><img src={flechiz} alt="" class="img-fluid flecha" /></button>
     </div>
   );
 };

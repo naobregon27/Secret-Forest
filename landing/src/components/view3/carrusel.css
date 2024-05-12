@@ -1,0 +1,58 @@
+.image {
+   
+    width: 70%;
+}
+
+@media (max-width: 768px) {
+    .image {
+
+        width: 1700%;
+        /* Cambia el ancho si es necesario */
+    }
+}
+
+.flecha {
+    background-color: transparent;
+}
+
+
+.botons {
+    position: absolute;
+    top:40%;
+    background-color: transparent;
+    border: none;
+    left: -40%;
+}
+
+@media (max-width: 768px) {
+    .botons {
+        top: 40%;
+        position: absolute;
+        left: -800%;
+        width: 400%;
+        border: none;
+        /* Cambia el ancho si es necesario */
+       
+    }
+}
+
+.botons2 {
+    position: absolute;
+    top:40%;
+    background-color: transparent;
+    border: none;
+    left: 80%;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    .botons2 {
+        top: 40%;
+        position: absolute;
+        left: 1800%;
+        width: 400%;
+        border: none;
+        /* Cambia el ancho si es necesario */
+       
+    }
+}

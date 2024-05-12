@@ -1,17 +1,67 @@
-.vista {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    color: white;
-    background-size: cover;
-    background-image: url("../../imagenes/view1/Fondo10RcesCTexto.png");
-    width: 100%;
-    height: 150vh;
+.sol{
+  background-image: url("../../imagenes/view3/fondos/Fondo-10Races.png");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
-.carousel-container {
-  position: absolute;
-  left: 65%;
-    /* otros estilos que necesites */
+
+@media(max-width:768px){
+  .sol {
+    background-image: url("../../imagenes/view3/Fondo10Races.png");
+    height: 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
+
+.diez{
+  position: absolute;
+  width:30%;
+  left:12% ;
+  top:180%
+}
+
+@media (max-width: 768px) {
+  .diez {
+    position: absolute;
+    width: 37%; /* Cambia el ancho si es necesario */
+    left: 33%;  /* Ajusta la posición horizontal */
+    top: 175%;  /* Ajusta la posición vertical */
+    transform: translateY(-50%); /* Centra verticalmente la imagen */
+  }
+}
+
+.discoveri{
+  position: absolute;
+  width:55%;
+  top:135%
+}
+
+@media (max-width: 768px) {
+  .discoveri{
+    position: absolute;
+    width:90%;
+    top:140%
+  } 
+}
+
+.carousel-container {
+  top:182%;
+  position: absolute;
+  left: 68%;
+  /* otros estilos que necesites */
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    position: absolute;
+    width: 2%; /* Cambia el ancho si es necesario */
+    left: 38%;  /* Ajusta la posición horizontal */
+    top: 221%;  /* Ajusta la posición vertical */
+    transform: translateY(-50%); /* Centra verticalmente la imagen */
+  }
+}
+
