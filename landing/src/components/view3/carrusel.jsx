@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./carrusel.css"
 
-import flechiz from "../../imagenes/view3/fondos/FlechaRazas (1).png"
+import flechiz from "/view3/fondos/FlechaRazas (1).png"
 
 const ImageCarousel = ({ images }) => {
   const [current, setCurrent] = useState(0);

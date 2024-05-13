@@ -1,11 +1,10 @@
 import React from "react";
-import gato from "../../imagenes/view1/Gato_Mesa de trabajo 1.png"
-import franja from "../../imagenes/view1/FranjasInicioLanding.png"
-import otro from "../../imagenes/view1/Ajolote_1.png"
-import fores from "../../imagenes/view1/LogoSFInicio.png"
-import titulo from "../../imagenes/view1/Titulo.png"
-import inicio from "../../imagenes/view1/FadeInicio (1).png"
-import hep from "../../imagenes/view1/HelpFormulario.png"
+import gato from "/view1/Gato_Mesa de trabajo 1.png"
+import otro from "/view1/Ajolote_1.png"
+import fores from "/view1/LogoSFInicio.png"
+import titulo from "/view1/Titulo.png"
+import inicio from "/view1/FadeInicio (1).png"
+import hep from "/view1/HelpFormulario.png"
  
 import 'bootstrap/dist/css/bootstrap.min.css';
 

@@ -1,20 +1,20 @@
 import React from "react";
-import letra from "../../imagenes/View5/150Hours.png";
-import ocho from "../../imagenes/View5/8Elements.png";
-import darknes from "../../imagenes/View5/Darkness.png";
-import fire from "../../imagenes/View5/Fire.png";
-import earth from "../../imagenes/View5/earth.png";
-import ice from "../../imagenes/View5/ice.png";
-import light from "../../imagenes/View5/Light.png"
-import water from "../../imagenes/View5/Water.png";
-import posion from "../../imagenes/View5/poison.png";
-import plant from "../../imagenes/View5/plant.png";
-import enig from "../../imagenes/View5/textos/EngagingGuest.png";
-import help from "../../imagenes/View5/textos/Form-Text.png";
-import follow from "../../imagenes/View5/textos/FollowUs.png"
-import discord from "../../imagenes/View5/textos/BtnDiscord.png"
-import lsp from "../../imagenes/View5/textos/FlyingMounts-Title.png"
-import We from "../../imagenes/View5/textos/WeWantToGive.png"
+import letra from "/View5/150Hours.png";
+import ocho from "/View5/8Elements.png";
+import darknes from "/View5/Darkness.png";
+import fire from "/View5/Fire.png";
+import earth from "/View5/earth.png";
+import ice from "/View5/ice.png";
+import light from "/View5/Light.png"
+import water from "/View5/Water.png";
+import posion from "/View5/poison.png";
+import plant from "/View5/plant.png";
+import enig from "/View5/textos/EngagingGuest.png";
+import help from "/View5/textos/Form-Text.png";
+import follow from "/View5/textos/FollowUs.png"
+import discord from "/View5/textos/BtnDiscord.png"
+import lsp from "/View5/textos/FlyingMounts-Title.png"
+import We from "/View5/textos/WeWantToGive.png"
 
 import "./view5.css"
 

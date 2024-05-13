@@ -1,15 +1,15 @@
-.sol{
-  background-image: url("../../imagenes/view3/fondos/Fondo-10Races.png");
+.sol {
+  background-image: url("/view3/fondos/Fondo-10Races.png");
   height: 140vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
   .sol {
-    background-image: url("../../imagenes/view3/Fondo10Races.png");
+    background-image: url("/view3/Fondo10Races.png");
     height: 140vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,64 +17,66 @@
   }
 }
 
-.diez{
+.diez {
   position: absolute;
-  width:30%;
-  left:12% ;
-  top:180%
+  width: 30%;
+  left: 12%;
+  top: 180%
 }
 
 @media (max-width: 768px) {
   .diez {
     position: absolute;
-    width: 37%; /* Cambia el ancho si es necesario */
-    left: 33%;  /* Ajusta la posición horizontal */
-    top: 175%;  /* Ajusta la posición vertical */
-    transform: translateY(-50%); /* Centra verticalmente la imagen */
+    width: 37%;
+    left: 33%; 
+    top: 175%;
+    transform: translateY(-50%);
+    
   }
 }
 
-.discoveri{
+.discoveri {
   position: absolute;
-  width:55%;
-  top:135%
+  width: 55%;
+  top: 135%
 }
 
 @media (max-width: 768px) {
-  .discoveri{
+  .discoveri {
     position: absolute;
-    width:90%;
-    top:140%
-  } 
+    width: 90%;
+    top: 140%
+  }
 }
 
-.become{
+.become {
   position: absolute;
-  width:80%;
-  top:250%
+  width: 80%;
+  top: 250%
 }
+
 @media (max-width: 768px) {
-  .become{
+  .become {
     position: absolute;
-    width:100%;
-    top:265%
-  } 
+    width: 100%;
+    top: 265%
+  }
 }
 
 .carousel-container {
-  top:182%;
+  top: 182%;
   position: absolute;
   left: 68%;
-  /* otros estilos que necesites */
+  
 }
 
 @media (max-width: 768px) {
   .carousel-container {
     position: absolute;
-    width: 2%; /* Cambia el ancho si es necesario */
-    left: 38%;  /* Ajusta la posición horizontal */
-    top: 221%;  /* Ajusta la posición vertical */
-    transform: translateY(-50%); /* Centra verticalmente la imagen */
+    width: 2%;
+    left: 38%;
+    top: 221%;
+    transform: translateY(-50%);
+    
   }
 }
-
